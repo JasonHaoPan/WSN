@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="ant-launcher">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Java Library/ant-launcher.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/ant.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/core.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jna-platform.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jna.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/pde.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Java Library" />
+    </SOURCES>
+  </library>
+</component>

@@ -9,61 +9,80 @@ import processing.core.PVector;
 public class Main extends PApplet {
     //radius
 
-    int Z = 500;
-    int R = 400;
+    int _SIZE = 700;
+    int R = 300;
+    int position = (_SIZE - 2*R)/2;
+    int avgdegree = 0;
     //number of points
-    int N = 1500;
+    int N = 16000;
+    Square rs = new Square(N, _SIZE,0);
+    Sphere rsp = new Sphere(N, R);
+    Disk dsk = new Disk(N, R, avgdegree);
     //int point
-    PVector point[] = new PVector[N];
-    public void generatesquare()
-    {
+    //PVector points[] = new PVector[N];
 
+    public void generateSquare(int N)
+    {
+        //translate(position,position);
         for (int i = 0; i < N; i++)
         {
-
-            stroke(0,255,0);
-            point(point[i].x, point[i].y);
-
+            point(rs.points[i].x, rs.points[i].y);
         }
+
     }
-    public void generatedisk()
+
+    public void generateDisk(int N)
     {
-        stroke(0,255,255);
-        ellipseMode(CENTER);
-        noFill();
-        arc(250,250,R,R,0,TWO_PI);
+        translate(position,position);
         for (int i = 0; i < N; i++)
         {
-
-            stroke(0,255,0);
-            double distance = sqrt((point[i].x - 250)*(point[i].x - 250)+(point[i].y - 250)*(point[i].y - 250));
-            if(distance <= 200)
-            {
-                //System.out.println(distance);
-                point(point[i].x, point[i].y);
-            }
+            point(dsk.points[i].x, dsk.points[i].y);
         }
-    }
-    public void generatesphare()
-    {
 
     }
+    public void generateSphare(int N)
+    {
+        translate(R + position,R + position);
+        for (int i = 0; i < N; i++)
+        {
+            point(rsp.points[i].x, rsp.points[i].y, rsp.points[i].z);
+        }
+
+    }
+
+
+
     public void settings() {
-        size(Z,Z);
-        //noLoop();
+        size(_SIZE,_SIZE,P3D);
+
+
     }
     public void setup() {
-        background(0);
-        for(int i = 0; i < N; i++)
-        {
-            point[i] = new PVector(random(Z),random(Z));
-        }
+        background(40);
+        stroke(0, 166,0);
+        //ellipseMode(CENTER);
+
+
+
     }
     public void draw()
     {
-        //generatesquare();
-        generatedisk();
+//        translate(position,position);
+//        for (int i = 0; i < N; i++) {
+//
+//            point(rsp.points[i].x,rsp.points[i].y,rsp.points[i].z);
+//
+//        }
+//        for (int i = 0; i < N; i++) {
+//
+//            point(rs.points[i].x,rs.points[i].y);
+//
+//        }
 
+        //rs.drawsquare();
+        //generateSquare(N);
+        //generateDisk(N);
+        generateSphare(N);
 
     }
 

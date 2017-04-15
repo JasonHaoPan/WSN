@@ -7,6 +7,20 @@
       <root url="jar://$USER_HOME$/Desktop/Java Library/jna-platform.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/Java Library/jna.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/Java Library/pde.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-linux-amd64.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-linux-armv6hf.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-linux-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-macosx-universal.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-windows-amd64.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt-natives-windows-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/gluegen-rt.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-linux-amd64.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-linux-armv6hf.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-linux-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-macosx-universal.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-windows-amd64.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all-natives-windows-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Java Library/jogl-all.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

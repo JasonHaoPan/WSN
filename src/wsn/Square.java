@@ -5,34 +5,30 @@ import processing.core.PVector;
  * Created by mymac on 17/4/14.
  */
 public class Square extends PApplet{
-    int N = 0;
-    //int SIZE = 800;
-    int avgDegree = 0;
+    int N ;
+    int SIZE = 600;
+    int avgDegree;
+
     PVector[] points = new PVector[N];
 
-    public Square(int numofpoints, int size,int avgdegree)
+    public Square(int numofpoints, int size, int avgdegree)
     {
         N = numofpoints;
+        SIZE = size;
+        avgDegree = avgdegree;
         points= new PVector[numofpoints];
         for (int i = 0; i < numofpoints; i++)
         {
             points[i] = randomSquarePoint(size);
         }
     }
-    public void drawsquare()
-    {
-//        for (int i = 0; i < N; i++)
-//        {
-//            point(points[i].x, points[i].y);
-//        }
-        //System.out.println("aaa");
-    }
     public PVector randomSquarePoint(int SIZE)
     {
         return new PVector(random(0, SIZE),random(0, SIZE));
     }
-    public int degreeToRadius(int avgdegree)
+    public double degreeToRadius()
     {
-        return 0;
+        return sqrt((SIZE*SIZE*avgDegree)/(N*PI));
     }
+
 }

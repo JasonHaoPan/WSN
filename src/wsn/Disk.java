@@ -8,10 +8,14 @@ import processing.core.PVector;
  */
 public class Disk extends PApplet {
     int N;
+    int R;
+    int avgDegree;
     PVector[] points = new PVector[N];
     public Disk(int numofpoints,int radius, int avgdegree)
     {
         N = numofpoints;
+        R = radius;
+        avgDegree = avgdegree;
         points = new PVector[numofpoints];
 
         for (int i = 0; i < numofpoints; i++)
@@ -29,5 +33,9 @@ public class Disk extends PApplet {
         }
         while(distance > radius);
         return vector;
+    }
+    public double degreeToRadius()
+    {
+        return sqrt((R*R*avgDegree)/(N));
     }
 }

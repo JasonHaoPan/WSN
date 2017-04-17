@@ -8,14 +8,18 @@ import processing.core.PVector;
  */
 public class Sphere extends PApplet{
     //number of vertices
-    int N = 0;
+    int N;
+    int R;
+    int avgDegree;
     //points
-    public PVector points[];
+    PVector[] points;
 
 
-    public Sphere(int numofpoints, int radius)
+    public Sphere(int numofpoints, int radius, int avgdegree)
     {
         N = numofpoints;
+        R = radius;
+        avgDegree = avgdegree;
         points = new PVector[numofpoints];
         for (int i = 0; i < N; i++)
             points[i] = randomSpherePoint (radius);
@@ -24,11 +28,11 @@ public class Sphere extends PApplet{
     //--------------------------------------------------------
     // draw random sphere points
     //--------------------------------------------------------
-    public void draw()
+    void drawSphere()
     {
         for (int i = 0; i < N; i++) {
-
-            point(points[i].x, points[i].y, points[i].z);
+            //point(this.points[i].x, this.points[i].y, this.points[i].z);
+            //System.out.println(this.points[i].x +","+ this.points[i].y+","+this.points[i].z);
         }
     }
 
@@ -56,6 +60,10 @@ public class Sphere extends PApplet{
                 ( 2*(b*d + a*c) / k
                         , 2*(c*d - a*b) / k
                         , (a*a + d*d - b*b - c*c) / k);
+    }
+    public double degreeToRadius()
+    {
+        return sqrt((4*R*R*avgDegree)/(N));
     }
 }
 

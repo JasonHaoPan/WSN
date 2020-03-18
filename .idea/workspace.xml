@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9523bb3-b838-4617-adc2-2a745f1c2892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_main_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_android_aarch64_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_android_armv6_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_amd64_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_armv6_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_armv6hf_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_i586_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_macosx_universal_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_solaris_amd64_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_solaris_i586_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_amd64_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_i586_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_processing_core_3_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ant_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WSN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WSN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsn/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsn/PointsComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/PointsComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsn/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Sphere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsn/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +40,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="WSN" type="Application" factoryName="Application">
@@ -84,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584492953182</updated>
-      <workItem from="1584492954897" duration="3196000" />
+      <workItem from="1584492954897" duration="3954000" />
     </task>
     <servers />
   </component>
@@ -115,30 +92,34 @@
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state x="1017" y="494" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584493304841" />
-    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584492974270">
+    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584496851530">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
-    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584492974270" />
-    <state width="2518" height="390" key="GridCell.Tab.0.bottom" timestamp="1584496557285">
+    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584496851530" />
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom" timestamp="1584496891394">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405461" />
-    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
-    <state width="2518" height="390" key="GridCell.Tab.0.center" timestamp="1584496557285">
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.23.2560.1361@0.23.2560.1361" timestamp="1584496891394" />
+    <state width="2518" height="390" key="GridCell.Tab.0.center" timestamp="1584496891393">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state width="2518" height="390" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405460" />
-    <state width="2518" height="390" key="GridCell.Tab.0.center/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
-    <state width="2518" height="390" key="GridCell.Tab.0.left" timestamp="1584496557284">
+    <state width="2518" height="390" key="GridCell.Tab.0.center/0.23.2560.1361@0.23.2560.1361" timestamp="1584496891393" />
+    <state width="2518" height="390" key="GridCell.Tab.0.left" timestamp="1584496891392">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state width="2518" height="390" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405460" />
-    <state width="2518" height="390" key="GridCell.Tab.0.left/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557284" />
-    <state width="2518" height="390" key="GridCell.Tab.0.right" timestamp="1584496557285">
+    <state width="2518" height="390" key="GridCell.Tab.0.left/0.23.2560.1361@0.23.2560.1361" timestamp="1584496891392" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right" timestamp="1584496891393">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state width="2518" height="390" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405461" />
-    <state width="2518" height="390" key="GridCell.Tab.0.right/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right/0.23.2560.1361@0.23.2560.1361" timestamp="1584496891393" />
+    <state x="789" y="342" key="SettingsEditor" timestamp="1584496837952">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="789" y="342" key="SettingsEditor/0.23.2560.1361@0.23.2560.1361" timestamp="1584496837952" />
     <state x="709" y="401" key="new project wizard" timestamp="1584495765257">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>

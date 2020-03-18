@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9523bb3-b838-4617-adc2-2a745f1c2892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_main_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_android_aarch64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_android_armv6_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_armv6_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_armv6hf_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_macosx_universal_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_solaris_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_solaris_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_processing_core_3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ant_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WSN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WSN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsn/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Disk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsn/PointsComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/PointsComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsn/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsn/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsn/Square.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZHPGu7SnkJHdP9zJEGCcXP5cpj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WSN" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="wsn.Main" />
+      <module name="WSN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9523bb3-b838-4617-adc2-2a745f1c2892" name="Default Changelist" comment="" />
+      <created>1584492953182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584492953182</updated>
+      <workItem from="1584492954897" duration="3196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="369" key="#Project_Structure" timestamp="1584494345758">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="880" y="369" key="#Project_Structure/0.23.2560.1361@0.23.2560.1361" timestamp="1584494345758" />
+    <state x="744" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584493315967">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="744" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584493315967" />
+    <state x="1017" y="494" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584493304841">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="1017" y="494" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584493304841" />
+    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584492974270">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="908" y="399" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1584492974270" />
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom" timestamp="1584496557285">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405461" />
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
+    <state width="2518" height="390" key="GridCell.Tab.0.center" timestamp="1584496557285">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405460" />
+    <state width="2518" height="390" key="GridCell.Tab.0.center/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
+    <state width="2518" height="390" key="GridCell.Tab.0.left" timestamp="1584496557284">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405460" />
+    <state width="2518" height="390" key="GridCell.Tab.0.left/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557284" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right" timestamp="1584496557285">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1584495405461" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right/0.23.2560.1361@0.23.2560.1361" timestamp="1584496557285" />
+    <state x="709" y="401" key="new project wizard" timestamp="1584495765257">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="709" y="401" key="new project wizard/0.23.2560.1361@0.23.2560.1361" timestamp="1584495765257" />
+  </component>
+</project>

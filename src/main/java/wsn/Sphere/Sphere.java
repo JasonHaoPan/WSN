@@ -1,40 +1,37 @@
-package wsn;
+package wsn.Sphere;
 
 import processing.core.PApplet;
 import processing.core.PVector;
+import wsn.Graph.Graph;
 
 /**
  * Created by mymac on 17/4/14.
  */
-public class Sphere extends PApplet{
+public class Sphere extends Graph {
     //number of vertices
     int N;
-    int R;
+    int radius;
     int avgDegree;
+    int size;
     //points
     PVector[] points;
 
 
-    public Sphere(int numofpoints, int radius, int avgdegree)
+    public Sphere(int numofpoints, int radius, int avgdegree, int size)
     {
-        N = numofpoints;
-        R = radius;
-        avgDegree = avgdegree;
-        points = new PVector[numofpoints];
-        for (int i = 0; i < N; i++)
-            points[i] = randomSpherePoint (radius);
+        super();
     }
 
     //--------------------------------------------------------
     // draw random sphere points
     //--------------------------------------------------------
-    void drawSphere()
+   /* void drawSphere()
     {
         for (int i = 0; i < N; i++) {
             //point(this.points[i].x, this.points[i].y, this.points[i].z);
             //System.out.println(this.points[i].x +","+ this.points[i].y+","+this.points[i].z);
         }
-    }
+    }*/
 
     //--------------------------------------------------------
     // return random sphere point using method of Cook/Neumann
@@ -44,8 +41,9 @@ public class Sphere extends PApplet{
     //        (14)
     //z	=	(x_0^2+x_3^2-x_1^2-x_2^2)/(x_0^2+x_1^2+x_2^2+x_3^2)
     //--------------------------------------------------------
-    PVector randomSpherePoint (int sphereRadius)
-    {
+
+    @Override
+    public PVector generateRandomPoints() {
         float a=0, b=0, c=0, d=0, k=200;
         while (k >= 1.0)
         {
@@ -55,15 +53,39 @@ public class Sphere extends PApplet{
             d = random (-1, 1);
             k = a*a +b*b +c*c +d*d;
         }
-        k = k / sphereRadius;
+        k = k / radius;
         return new PVector
                 ( 2*(b*d + a*c) / k
                         , 2*(c*d - a*b) / k
                         , (a*a + d*d - b*b - c*c) / k);
     }
+
+    @Override
     public double degreeToRadius()
     {
-        return sqrt((4*R*R*avgDegree)/(N));
+        return sqrt((4*radius*radius*avgDegree)/(N));
+    }
+
+    @Override
+    public void draw() {
+
+    }
+
+    @Override
+    public void generateGraph() {
+        translate(size/2,size/2);
+        stroke(255, 0, 255);
+        strokeWeight(3);
+
+        for (int i = 0; i < N; i++)
+        {
+            point(this.points[i].x, this.points[i].y, this.points[i].z);
+        }
+    }
+
+    @Override
+    public void connectPoints(PVector[] vector, double r) {
+
     }
 }
 

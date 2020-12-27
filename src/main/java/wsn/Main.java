@@ -2,6 +2,9 @@ package wsn;
 
 import processing.core.PApplet;
 import processing.core.PVector;
+import wsn.Disk.Disk;
+import wsn.Sphere.Sphere;
+import wsn.Square.Square;
 
 import java.util.Arrays;
 
@@ -11,7 +14,7 @@ import java.util.Arrays;
 public class Main extends PApplet {
     //radius
 
-    int _SIZE = 600;
+    /*int _SIZE = 600;
     int R = 250;
     int avgdegree = 32;
     int edges = 0;
@@ -20,54 +23,19 @@ public class Main extends PApplet {
     int N = 1000;
     Square square = new Square(N, _SIZE, avgdegree);
     Sphere sphere = new Sphere(N, R,avgdegree);
-    Disk disk = new Disk(N, R, avgdegree);
+    Disk disk = new Disk(N, R, avgdegree);*/
     //int point
-    PVector points[] = new PVector[N];
+    //PVector points[] = new PVector[N];
 
-    public void generateSquare()
-    {
-        stroke(255, 0, 255);
-        strokeWeight(2);
-        for (int i = 0; i < N; i++)
-        {
-
-            point(square.points[i].x, square.points[i].y);
-
-        }
-
-    }
-    public void generateDisk()
-    {
-        stroke(255, 255, 0);
-        translate(_SIZE/2 - R,_SIZE/2 - R);
-        for (int i = 0; i < N; i++)
-        {
-            point(disk.points[i].x, disk.points[i].y);
-        }
-    }
-
-    public void generateSphere()
-    {
-        translate(_SIZE/2,_SIZE/2);
-        stroke(255, 0, 255);
-        strokeWeight(3);
-
-        for (int i = 0; i < N; i++)
-        {
-            point(sphere.points[i].x, sphere.points[i].y, sphere.points[i].z);
-        }
-
-
-    }
     //sort the points by x axis
-    public void vectorSort(PVector[] vector)
+    /*public void vectorSort(PVector[] vector)
     {
         Arrays.sort(vector,new PointsComparator());
 
-    }
+    }*/
 
     //connect points using sweep method
-    public void connectPoints(PVector[] vector, double r)
+    /*public void connectPoints(PVector[] vector, double r)
     {
         double distance;
         vectorSort(vector);
@@ -89,11 +57,11 @@ public class Main extends PApplet {
 
 
         System.out.println("Edges is:  "+edges);
-    }
+    }*/
 
     public void settings() {
 
-        size(_SIZE,_SIZE,P3D);
+        //size(_SIZE,_SIZE,P3D);
     }
     public void setup() {
         smooth();
@@ -105,14 +73,14 @@ public class Main extends PApplet {
     public void draw()
     {
         //generateSquare();
-        connectPoints(square.points, square.degreeToRadius());
-//        generateDisk();
-//        translate(_SIZE/2 - R,_SIZE/2 - R);
-//        connectPoints(disk.points, disk.degreeToRadius());
+        //connectPoints(square.points, square.degreeToRadius());
+        //generateDisk();
+        //translate(_SIZE/2 - R,_SIZE/2 - R);
+        //connectPoints(disk.points, disk.degreeToRadius());
 //
-//        generateSphere();
-//        translate(_SIZE/2,_SIZE/2);
-//        connectPoints(sphere.points, sphere.degreeToRadius());
+        //generateSphere();
+        //translate(_SIZE/2,_SIZE/2);
+        //connectPoints(sphere.points, sphere.degreeToRadius());
 
 
 
